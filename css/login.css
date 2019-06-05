@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: dimgray
+}
+.contenedorN {
+    width: 100%;
+}
+.contenedorlog{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 600px;
+    /* background-image: url("../imagenes/fondollogin.jpg");
+    background-position: center;
+    background-size: cover; */
+}
+/* .imgizquierda{
+    background-color: red;
+    width: 200px;
+    height: 100%;
+} */
+.login{
+    background-color: white;
+    width: 600px;
+    height: 450px;
+    border-radius: 10px;
+}
+/* .imgiderecha{
+    background-color: red;
+    width: 200px;
+    height: 100%;
+} */
