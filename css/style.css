@@ -53,6 +53,7 @@ body{
 }
 .menu li{
     list-style: none;
+    height: 53px;
  }
 .menu li a{
     text-decoration: none;
@@ -67,7 +68,10 @@ body{
     display: none;
 }
 #boton:checked ~ .menu{
-    height: 160px;
+    height: 215px;
+}
+.menu li:hover{
+    background-color: #0d47a1;
 }
 @media screen and (max-width:767px){
     .iconB{
@@ -233,6 +237,10 @@ footer p{
     .col-11{width: 91.66%;}
     .col-12{width: 100%;}
 /**************************************************************** section*/
+.menu li{
+    list-style: none;
+    height: 0px;
+ }
 article h3{
     opacity: 0;
 }

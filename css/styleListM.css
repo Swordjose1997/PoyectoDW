@@ -31,9 +31,7 @@ h1{
     opacity: 1;
 }
 .slider{
-    width: 100%;
     position: relative;
- 
 }
 ul, ol{
     list-style-type: none;
